@@ -1,51 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My_portfolio</title>
-    <link rel="stylesheet" href="./css/style.css">
-
+    <title>Ram's Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+<body>
 
-<body class="homepagebg">
-
-    <header >
-        <nav class="navigation">
-        <a class="color" href="index.html" >Home</a>
-        <a href="./pages/education.html">Education</a>
-        <a href="./pages/software_tools.html">Software Tools</a>
-        <a href="./pages/intrested_in.html">Intrested In</a>
-        <a href="./pages/contact.html">Contact</a>
-    </nav>
-       
+    
+    <header>
+        <div class="container">
+            <div class="logo">Ram</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main >
-        <h1>
-            I'M RAMA SUBBU
-        </h1>
-        <p>
-            Dedicated Electronics and Communication Engineering Diploma holder with  <br> a passion for leveraging technical expertise in the dynamic realm of software development. <br> Adaptable to diverse roles, seeking to contribute innovative solutions and drive success in the software industry.
 
-        </p>
+    <section id="home">
+        <div class="home-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Explore my work and skills as a software developer.</p>
+        </div>
+    </section>
 
+   
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                    <img src="./assets/images/img-1.png" alt="Profile Image">
+                    <p>Hi I'm Rama Subbu from Kanyakumari District , and I have completed my 10th schooling, also I had Diploma in Electronic Communication Engineering (ECE). Within this three months I'm able to create this website by using HTML, CSS and BootStrap. More over I had a work experince in multiple roles (AC mechanic ,Marketting etc.. ).</p>
+            </div>
+        </div>
+    </section>
 
-    </main>
+   
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <a href="./project.html"><i class="fab fa-html5"></i></a>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+        </div>
+    </section>
 
- 
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:rama.nagarajan@fssa.freshworks.com">rama.nagarajan@fssa.freshworks.com</a></p>
+                <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/rama-subbu-0a47892b8">linkedin.com/in/ram</a></p>
+            </div>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
 
 </body>
-
 </html>
-
-<!-- 
-<main >
-    <h1>
-        I'M RAMA SUBBU
-    </h1>
-    <p>
-        Dedicated Electronics and Communication Engineering Diploma holder with a passion for leveraging technical expertise in the dynamic realm of software development.<span> Adaptable to diverse roles, seeking to contribute innovative solutions and drive success in the software industry.
-
-    </p>
-</main> -->

@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Element Selector */
+body {
+
+
+
+}
+
+/* Class Selector */
+.inline-style {
+
+  color: red; font-weight: bolder;padding: 10px;font-family : Arial, sans-serif;
+
+}
+
+.menu {
+
+  padding-top: 20px; padding-bottom: 10px; 
+  text-align: center;font-family : Arial, sans-serif;
+ 
+}
+
+.dish {
+
+}
+
+.dish img {
+  width: 100%;
+  height: 80%;
+
+}
+
+.dish h3 {
+
+  padding: 10px;font-family : Arial, sans-serif;
+
+}
+
+/* ID Selector */
+#intro {
+
+  padding:  10px;font-family : Arial, sans-serif;
+    
+}
+
+/* Descendant Selector */
+.contact-info li {
+  
+    
+}
+
+/* Class Selector for Box Model */
+.box-model-example {
+
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: #F9F9F9;
+  padding: 30px;
+  border: solid 2px #ddd;
+  border-radius: 7px;
+  box-sizing: border-box;
+  
+
+
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  background-color:#FF6347 ;
+  color: azure;
+
+}
+
+.footer h2 {
+
+  font-family : Arial, sans-serif;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  
+ /* Space below the heading */
+/* Font size for the heading */
+}
+
+.contact-info {
+
+   list-style: none;
+  /* Remove bullet points */
+
+  
+}
+
+.contact-info li {
+
+padding: 10px;
+     /* Space between each contact item */
+   /* Font size for contact information */
+}
